@@ -1,5 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.home-header-container {
+    background-color: aquamarine;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    align-self: center;
+    border-bottom-right-radius: 30%;
+
+    background-image: url("./assets/SelfPortrait.png");
+    background-position: center right;
+	background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-header-button {
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: none;
+    color: black;
+    padding: 32px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 128px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    animation: animate 3s ease-in-out infinite; 
+}
+.home-header-button:hover {
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: none;
+    color: white;
+    padding: 32px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 128px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    cursor: pointer;
 }
