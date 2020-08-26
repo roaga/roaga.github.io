@@ -11,7 +11,7 @@ body {
     padding-bottom: 32px;
     padding-left: 32px;
     align-self: center;
-    border-bottom-right-radius: 30%;
+    border-bottom-right-radius: 30% 30%;
 
     background-image: url("./assets/SelfPortrait.png");
     background-position: bottom right;
@@ -24,6 +24,14 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 700;
+    margin-left: 64px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .home-header-button {
@@ -42,7 +50,6 @@ h1 {
     margin-right: 32px;
     margin-bottom: 16px;
     cursor: pointer;
-    animation: animate 3s ease-in-out infinite; 
 }
 .home-header-button:hover {
     border-radius: 100%;
@@ -60,4 +67,38 @@ h1 {
     margin-right: 32px;
     margin-bottom: 16px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .intro-bubble-container {
+        flex-wrap: wrap; 
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 501px) {
+    .intro-bubble-container {
+        flex-direction: row; 
+        justify-content: center; 
+        display: flex;
+    }
+}
+
+
+.home-text-bubble {
+    display: table;
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    border: none;
+    color: black;
+    padding: 32px 32px 32px 32px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
