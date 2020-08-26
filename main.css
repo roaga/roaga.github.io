@@ -14,8 +14,8 @@ body {
     border-bottom-right-radius: 30%;
 
     background-image: url("./assets/SelfPortrait.png");
-    background-position: center right;
-	background-repeat: no-repeat;
+    background-position: bottom right;
+    background-repeat: no-repeat;
     background-size: contain;
     display: flex;
     flex-direction: column;
