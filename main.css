@@ -28,21 +28,22 @@ h1 {
 }
 h2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
+    margin: 8px;
 }
 
 .home-header-button {
     border-radius: 100%;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     width: 150px;
     height: 150px;
     border: none;
     color: black;
-    padding: 32px 32px;
     text-align: center;
     display: inline-block;
     font-size: 24px;
@@ -54,12 +55,12 @@ h2 {
 .home-header-button:hover {
     border-radius: 100%;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     background-color: black;
     width: 150px;
     height: 150px;
     border: none;
     color: white;
-    padding: 32px 32px;
     text-align: center;
     display: inline-block;
     font-size: 24px;
@@ -69,20 +70,12 @@ h2 {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 500px) {
-    .intro-bubble-container {
-        flex-wrap: wrap; 
-        flex-direction: column;
-    }
+.intro-bubble-container {
+    flex-direction: row; 
+    justify-content: center; 
+    display: flex;
+    padding: 32px;
 }
-@media only screen and (min-width: 501px) {
-    .intro-bubble-container {
-        flex-direction: row; 
-        justify-content: center; 
-        display: flex;
-    }
-}
-
 
 .home-text-bubble {
     display: table;
@@ -93,7 +86,32 @@ h2 {
     height: 150px;
     border: none;
     color: black;
+    padding: 32px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 32px;
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+.project-info-bubble {
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    color: black;
     padding: 32px 32px 32px 32px;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
@@ -101,4 +119,11 @@ h2 {
     margin-right: 32px;
     margin-bottom: 16px;
     margin-top: 16px;
+}
+.project-img {
+    width: 50%; 
+    object-fit: contain; 
+    object-position: center; 
+    align-self: center; 
+    padding: 64px;
 }

@@ -1,30 +1,49 @@
 <html>
     <head>
-        <title>Rohan Agarwal</title>
+        <title>Rohan Agarwal | Home</title>
         <link href="main.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="assets/SelfPortrait.png">
     </head>
 
     <body>
         <div class="home-header-container">
             <h1>Hi, I'm Rohan Agarwal.</h1>
-            <button class="home-header-button">Projects</button>
+            <button class="home-header-button">
+                <a href="#Featured_Work" style="text-decoration: none; color: inherit">Projects</a>
+            </button>
             <button class="home-header-button" style="margin-left: 32px;">About</button>
             <button class="home-header-button">Contact</button>
         </div>
 
         <div class="intro-bubble-container">
             <div class="home-text-bubble" style="margin-top: 32px;">
-                <h2>I'm a student at Georgia Tech majoring in CS.</h2>
+                <h2>I'm a CS major at Georgia Tech.</h2>
             </div>
             <div class="home-text-bubble" style="margin-top: 128px; width: 200px; height: 200px;">
-                <h2>More about me.</h2>
+                <h2>I like to design and create communicative, visual software.</h2>
             </div>
             <div class="home-text-bubble" style="margin-top: 196px; width: 250px; height: 250px;">
-                <h2>One more thing about me.</h2>
+                <h2>Below are some of my recent creations and experiences.</h2>
             </div>
         </div>
 
         <div class="home-header-container" style="border-bottom-right-radius: 0%; border-top-left-radius: 30% 30%; background-image: none;">
+            <h1 style="text-align: right; margin-right: 64px" id="Featured_Work">Featured Work</h1>
+
+            <!--Maintain Top 5 Projects/Experiences Here-->
+            <div class="project">
+                <img class="project-img" src="assets/InterTutor.png" alt="InterTutor"/>
+
+                <div class="project-info-bubble" style="background-color: white;">
+                    <div class="project-info">
+                        <h2 style="font-size: 32px">InterTutor</h2>
+                        <h2 style="font-style: italic;">Founder, Lead Developer & Designer</h2>
+                        <h2>A web-platform to automate peer tutoring systems at high schools.</h2>
+                        <h2>Built in JavaScript & Wix Corvid API.</h2>
+                        <a href="https://intertutor.org" style="text-align: center; text-decoration: none;" target="_blank">InterTutor.org</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </body>
