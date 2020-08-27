@@ -81,11 +81,11 @@ h2 {
     display: table;
     border-radius: 100%;
     font-weight: 700;
-    background-color: aquamarine;
+    background-color: black;
     width: 150px;
     height: 150px;
     border: none;
-    color: black;
+    color: white;
     padding: 32px;
     margin: 8px;
     justify-content: center;
@@ -126,4 +126,7 @@ h2 {
     object-position: center; 
     align-self: center; 
     padding: 64px;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
 }
