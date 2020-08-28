@@ -13,21 +13,21 @@ body {
     align-self: center;
     border-bottom-right-radius: 30% 30%;
 
-    background-image: url("./assets/SelfPortrait.png");
+    /* background-image: url("./assets/SelfPortrait.png");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
     display: flex;
     flex-direction: column;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 36pt;
     font-weight: 700;
     margin-left: 64px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 16pt;
     font-weight: 700;
     text-align: center;
     vertical-align: middle;
@@ -46,7 +46,7 @@ h2 {
     color: black;
     text-align: center;
     display: inline-block;
-    font-size: 24px;
+    font-size: 16pt;
     margin-left: 128px;
     margin-right: 32px;
     margin-bottom: 16px;
@@ -63,7 +63,7 @@ h2 {
     color: white;
     text-align: center;
     display: inline-block;
-    font-size: 24px;
+    font-size: 24pt;
     margin-left: 128px;
     margin-right: 32px;
     margin-bottom: 16px;
@@ -83,14 +83,15 @@ h2 {
     font-weight: 700;
     background-color: black;
     width: 150px;
-    height: 150px;
+    height: max-content;
+    min-height: 150px;
     border: none;
     color: white;
     padding: 32px;
     margin: 8px;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16pt;
 }
 
 .project {
@@ -115,7 +116,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16pt;
     margin-left: 0px;
     margin-right: 32px;
     margin-bottom: 16px;
@@ -126,7 +127,9 @@ h2 {
     object-fit: contain; 
     object-position: center; 
     align-self: center; 
-    padding: 64px;
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-bottom: 64px;
     border-bottom-width: 5px;
     border-bottom-color: black;
     border-bottom-style: solid;
