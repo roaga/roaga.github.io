@@ -50,9 +50,8 @@ h2 {
     margin-left: 128px;
     margin-right: 32px;
     margin-bottom: 16px;
-    cursor: pointer;
 }
-.home-header-button:hover {
+/* .home-header-button:hover {
     border-radius: 100%;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -68,7 +67,7 @@ h2 {
     margin-right: 32px;
     margin-bottom: 16px;
     cursor: pointer;
-}
+} */
 
 .intro-bubble-container {
     flex-direction: row; 
@@ -133,4 +132,13 @@ h2 {
     border-bottom-width: 5px;
     border-bottom-color: black;
     border-bottom-style: solid;
+}
+
+.link-img:hover {
+    filter: opacity(0.5);
+    transition: all 0.2s;
+}
+a:hover {
+    filter: opacity(0.5);
+    transition: all 0.2s;
 }
