@@ -5,6 +5,8 @@ body {
     margin: 0px;
 }
 
+html{scroll-behavior:smooth}
+
 .home-header-container {
     background-color: white;
     padding-top: 32px;
