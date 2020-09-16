@@ -144,3 +144,15 @@ a:hover {
     filter: opacity(0.5);
     transition: all 0.2s ease-out;
 }
+
+.scrolling-wrapper {
+    display: flex;
+    padding: 64px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+}
+.card {
+    flex: 0 0 auto;
+  }
