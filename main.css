@@ -152,7 +152,21 @@ a:hover {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
-}
+
 .card {
     flex: 0 0 auto;
-  }
+}
+
+.embed {
+    width: 50%;
+    height: 500px;
+    object-fit: contain; 
+    object-position: center; 
+    align-self: center; 
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-bottom: 64px;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
