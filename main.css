@@ -199,7 +199,7 @@ a:hover {
     border-bottom-style: solid;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .intro-bubble-container, .project {
       flex-direction: column; /* when the viewport is 800px or smaller */
       align-self: center;
