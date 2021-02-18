@@ -42,8 +42,8 @@ h2 {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: none;
     color: black;
     text-align: center;
@@ -53,6 +53,16 @@ h2 {
     margin-right: 32px;
     margin-bottom: 16px;
     box-shadow: 0px 2px 50px -30px #000000;
+
+    opacity: 0;
+    transform: translateY(4em) rotateZ(0deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;  
+    will-change: transform, opacity;
+}
+.home-header-button.is-visible {
+    opacity: 1;
+    transform: rotateZ(0deg);
 }
 .home-header-button:hover{
     box-shadow: 0px 2px 50px -25px #000000;
@@ -83,6 +93,15 @@ h2 {
     align-items: center;
     font-size: 16pt;
     box-shadow: 0px 2px 50px -30px #000000;
+    opacity: 0;
+    transform: translateY(4em) rotateZ(0deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;  
+    will-change: transform, opacity;
+}
+.home-text-bubble.is-visible {
+    opacity: 1;
+    transform: rotateZ(0deg);
 }
 .home-text-bubble:hover{
     box-shadow: 0px 2px 50px -25px #000000;
@@ -117,6 +136,15 @@ h2 {
     margin-bottom: 16px;
     margin-top: 16px;
     box-shadow: 0px 2px 50px -30px #000000;
+    opacity: 0;
+    transform: translateY(4em) rotateZ(0deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;  
+    will-change: transform, opacity;
+}
+.project-info-bubble.is-visible {
+    opacity: 1;
+    transform: rotateZ(0deg);
 }
 .project-info-bubble:hover{
     box-shadow: 0px 2px 50px -25px #000000;
