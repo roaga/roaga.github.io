@@ -198,3 +198,19 @@ a:hover {
     border-bottom-color: black;
     border-bottom-style: solid;
 }
+
+@media screen and (max-width: 800px) {
+    .intro-bubble-container, .project {
+      flex-direction: column; /* when the viewport is 800px or smaller */
+      align-self: center;
+    }
+    .embed {
+        width: 90%;
+    }
+    .h1 {
+        font-size: 72pt;
+    }
+    .h2 {
+        font-size: 32pt;
+    }
+  }
