@@ -200,12 +200,25 @@ a:hover {
 }
 
 @media screen and (max-width: 900pt) {
-    .intro-bubble-container, .project {
+    .intro-bubble-container, .project, .home-header-container {
       flex-direction: column; /* when the viewport is 800px or smaller */
       align-self: center;
+      align-items: center;
     }
     .embed {
         width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        overflow-x: hidden;
+    }
+    .scrolling-wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow-x: scroll;
+    }
+    .card {
+        max-width: 95%;
     }
     .h1 {
         font-size: 72pt;
