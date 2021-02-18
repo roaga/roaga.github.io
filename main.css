@@ -204,17 +204,16 @@ a:hover {
       flex-direction: column; /* when the viewport is 800px or smaller */
       align-self: center;
       align-items: center;
+      margin-left: 16;
     }
     .embed {
         width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
+        margin-left: 16px;
         overflow-x: hidden;
     }
     .scrolling-wrapper {
         width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 16px;
         overflow-x: scroll;
     }
     .card {
