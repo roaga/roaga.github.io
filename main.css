@@ -82,9 +82,9 @@ h2 {
     border-radius: 100%;
     font-weight: 700;
     background-color: black;
-    width: 150px;
+    width: 250px;
     height: max-content;
-    min-height: 150px;
+    min-height: 250px;
     border: none;
     color: white;
     padding: 32px;
