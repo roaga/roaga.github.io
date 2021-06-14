@@ -226,3 +226,30 @@ a:hover {
         font-size: 32pt;
     }
   }
+
+.button {
+    background: #fff;
+	color: black;
+	border: none;
+	padding: 8;
+	font: inherit;
+    font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 8px;
+    margin-top: 8;
+}
+
+.email {
+    background: #fff;
+	color: black;
+	border: none;
+	padding: 8;
+	font: inherit;
+    font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 8px;
+    margin-top: 8;
+    width: 90%;
+}
