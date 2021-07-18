@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "react-flow-renderer": "^9.6.4"
   }
 }
