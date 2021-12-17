@@ -1,6 +1,6 @@
 {
-  "short_name": "Rohan Agarwal",
-  "name": "Rohan Agarwal",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "/assets/SelfPortrait.png",
