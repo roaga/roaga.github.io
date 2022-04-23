@@ -37,7 +37,7 @@ const script = [
     "Hey you. ",
     "Yeah you. ",
     "You don't look like you're from around here. ",
-    "If you have any doubt if you're tough enough for this city, just click the links in the top right to get the info you need about Rohan. ",
+    "If you're in a rush, just click the links in the top right to get the info you need about Rohan. ",
     "Otherwise, let me tell you... ",
     "This city is owned by Rohan Agarwal. ",
     "Don't worry, this isn't one of those dystopias. ",
