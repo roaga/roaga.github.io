@@ -4,17 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import './App.css';
 import Building from './Building'
 import BackgroundBuilding from './BackgroundBuilding'
-import cityAmbience from './cityambience.mp3'
 import Dialogue from "./Dialogue";
+import ProjectModal from './ProjectModal'
+
 
 function App() {
 
-  let audioRef = useRef(new Audio(cityAmbience));
+const [modalInfo, setModalInfo] = useState(null);
 
-  useEffect(() => {
-    audioRef.current.loop = true;
-    audioRef.current.play();
-  }, []);
 
   return (
     <div className="App" style={{height: "100%", width: "100%", backgroundColor: "#5a6282"}}>
@@ -25,10 +22,10 @@ function App() {
           return <BackgroundBuilding left={4.55 * i + "%"}/>
       })}
       {[...Array(5)].map((e, i) => {
-          return <Building left={9 * (4 - i) + "%"} layer={i} align={"right"} start={i}/>
+          return <Building left={9 * (4 - i) + "%"} layer={i} align={"right"} start={i} setModalInfo={setModalInfo}/>
       })}
       {[...Array(5)].map((e, i) => {
-          return <Building left={43 + 9 * i + "%"} layer={i} align={"left"} start={5 + i}/>
+          return <Building left={43 + 9 * i + "%"} layer={i} align={"left"} start={5 + i} setModalInfo={setModalInfo}/>
       })}
 
       <div style={{backgroundColor: "rgba(31, 31, 31, 0.9)", height: 500, width: "100%", position: "absolute", top: "90%", zIndex: 101, boxShadow: "0px -100px 100px rgba(31, 31, 31, 1)"}}/>
@@ -82,7 +79,7 @@ function App() {
                 enable: true,
                 value_area: 800,
                 },
-                value: 80,
+                value: 60,
             },
             opacity: {
                 value: 0.5,
@@ -103,6 +100,12 @@ function App() {
       </div>
 
       <Dialogue/>
+
+      {modalInfo ?
+        <ProjectModal setModalInfo={setModalInfo} modalInfo={modalInfo}/>
+      :
+        null
+      }
 
     </div>
   );

@@ -15,7 +15,7 @@ const Billboard = (props) => {
     const [fontColor, setFontColor] = useState("black");
     const [link, setLink] = useState();
 
-    const [flash, setFlash] = useState(false);
+    // const [flash, setFlash] = useState(false);
 
     useEffect(() => {
         let time = Math.random() * 7000 + 8000;
@@ -25,13 +25,13 @@ const Billboard = (props) => {
             chooseAd();
         }, time);
 
-        const flickerInterval = setInterval(() => {
-            setFlash(flash => !flash);
-        }, Math.round(time / 2));
+        // const flickerInterval = setInterval(() => {
+        //     setFlash(flash => !flash);
+        // }, Math.round(time / 2));
 
         return () => {
             clearInterval(interval);
-            clearInterval(flickerInterval);
+            // clearInterval(flickerInterval);
         };
     }, []);
 
@@ -54,32 +54,30 @@ const Billboard = (props) => {
             position: "absolute",
             bottom: bottom,
             left: left,
-            backgroundColor: bgColor, 
+            backgroundColor: "rgba(31, 31, 31, 1.0)", 
             boxShadow: "0px 0px 100px " + bgColor,
             border: "5px solid rgba(31, 31, 31, 0.7)",
-            objectFit: "fit",
-            overflow: "scroll",
+            objectFit: "cover",
             display: "flex",
             justifyContent: "center",
-            padding: 4,
         }}
         onClick={() => {
-            if (link) {
-                window.open(link);
-            }
+            props.setModalInfo({image: bgImage, color: bgColor, caption: caption, link: link});
         }}
       >
-          {!flash || !bgImage ?
+
+          {/* {!flash || !bgImage ?
             <h5 style={{color: fontColor, fontWeight: 700}}>{caption}</h5>
           :
             <img src={bgImage} style={{maxHeight: "100%", maxWidth: "100%", alignSelf: "center", justifyContent: "center"}}/>
-          }
+          } */}
+          <img src={bgImage} style={{maxHeight: "100%", maxWidth: "100%", objectFit: "cover"}} alt="billboard"/>
 
-          {link ? 
+          {/* {link ? 
             <h6 style={{color: fontColor, position: "absolute", bottom: -16, right: 4}}>(link)</h6>
           :
             null
-          }
+          } */}
       </div>
     );
   };
