@@ -56,8 +56,9 @@ const ads = [
     },
     // Google DSC
     {
-        text: "Google DSC was a unique opportunity for me to lead an engineering team in designing and building a solution to a UN Sustainable Development Goal.\n" + 
-        "After being selected as a project lead, I recruited a team and led them in designing and building a mobile application using Google Cloud technologies.",
+        text: "Google DSC was a unique opportunity for me to lead an engineering and design team in building a solution to a UN Sustainable Development Goal.\n" + 
+        "After being selected as a project lead, I recruited a team and led them in designing and building a mobile application using Google Cloud technologies.\n" +
+        "Personally, I got experience with mobile development, backend development, design using tools like Figma, and user research.",
         image: "/assets/images/googledsc.png",
         color: "#00FF00",
         link: ""
@@ -91,7 +92,7 @@ const ads = [
     {
         text: "I've participated in multiple hack-a-thons in my time in college to experiment with new technologies and unique business ideas.\n" +
         "I've won awards at HackGT 7 & 8 and at HackRPI, including prizes sponsored by IBM and NCR, for projects involving web and mobile tech, cloud storage, and various AI/ML techniques.",
-        image: "/assets/images/hackgt.png",
+        image: "/assets/images/HackGT.png",
         color: "#FF00FF",
         link: "https://devpost.com/roaga"
     },
