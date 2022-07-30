@@ -34,13 +34,13 @@ const ads = [
         "Over that time, I won 7 Scholastic Art and Writing awards across NYC and exhibited my work at the Metropolitan Museum of Art as a result.",
         image: "/assets/images/bluevase.jpg",
         color: "#0000FF",
-        link: "https://www.metmuseum.org/"
+        link: "https://photos.app.goo.gl/e1Uk7pjdsrQxi5K28"
     },
     // Fordham research and publication
     {
         text: "I wanted to get involved in AI, but I was just a high schooler. So I cold emailed professors around NYC for a summer research internship.\n" +
         "The chair of the CIS department of Fordham University replied to me and I ended up assisting on autonomous robot exploration work that summer.\n" +
-        "The next summer, I switched to another lab at Fordham and co-authored my own paper in training neural networks in the same way human infants sharpen their vision over time.\n" +
+        "The next summer, I switched to another lab at Fordham and co-authored my own paper on training neural networks in the same way human infants sharpen their vision over time.\n" +
         "That work, besides being published, was a finalist at NYCSEF and semifinalist at JSHS 2020.",
         image: "/assets/images/fordham.png",
         color: "#00FF00",
@@ -57,11 +57,11 @@ const ads = [
     // Google DSC
     {
         text: "Google DSC was a unique opportunity for me to lead an engineering and design team in building a solution to a UN Sustainable Development Goal.\n" + 
-        "After being selected as a project lead, I recruited a team and led them in designing and building a mobile application using Google Cloud technologies.\n" +
+        "After being selected as a project lead, I recruited a team and led them in designing and building a mobile application with a unique gamification system using Google Cloud technologies.\n" +
         "Personally, I got experience with mobile development, backend development, design using tools like Figma, and user research.",
-        image: "/assets/images/googledsc.png",
+        image: "/assets/images/solu.png",
         color: "#00FF00",
-        link: ""
+        link: "https://www.youtube.com/watch?v=JhWZspMDih0"
     },
     // YJSP
     {
@@ -84,17 +84,43 @@ const ads = [
     {
         text: "I took a crash course in startup development from experienced investors and entrepreneurs one summer at Georgia Tech's CREATE-X accelerator.\n" +
         "I learned business development from true startup veterans, conducted dozens of user interviews, let my team to build an NLP product that could scale to millions of data points, and built relationships with multiple multi-billion dollar companies, all in one summer.",
-        image: "/assets/images/createx.png",
+        image: "/assets/images/notitia.png",
         color: "#ffffff",
         link: ""
     },
-    // HackGT 8 and other hackathons
-    {
-        text: "I've participated in multiple hack-a-thons in my time in college to experiment with new technologies and unique business ideas.\n" +
-        "I've won awards at HackGT 7 & 8 and at HackRPI, including prizes sponsored by IBM and NCR, for projects involving web and mobile tech, cloud storage, and various AI/ML techniques.",
-        image: "/assets/images/HackGT.png",
-        color: "#FF00FF",
-        link: "https://devpost.com/roaga"
+    // Hackathon projects
+    { // Mechanic-ease
+        text: "At Stanford's TreeHacks, I built a Unity plugin to make game accessibility easy to implement while following the vision of the creator.\n" +
+        "Game developers just need to set game variables in the plugin and ideal values to match their creative intent, and the backend uses ML curve fitting to study player behavior and optimize these variables in real time to match that creative intent.",
+        image: "/assets/images/mechanicease.png",
+        color: "#ADD8E6",
+        link: "https://devpost.com/software/test-08kpx3"
+    },
+    { // Publixmon
+        text: "At Georgia Tech's HackGT 8, I built a new model for grocery retail for a challenge posed by NCR, a Fortune 500 company and leader in retail and banking payments.\n" +
+        "The app turned normal shopping into a chance to collect virtual, AI-generated collectibles, like toys in a cereal box, turned unique through NFT technology. With live social features, users could trade these collectibles with each other at stores, promoting traffic, and redeem promos as they expanded their collection.\n" + 
+        "This project won first place for NCR's challenge to use their retail APIs and was a great experiment in ML style transfer, blockchain tech, and real-time location features.",
+        image: "/assets/images/publixmon.png",
+        color: "#808000",
+        link: "https://devpost.com/software/publixmon"
+    },
+    { // Stonklytics
+        text: "At Georgia Tech's Hacklytics, in response to the recent controversies surrounding Reddit and stock trading, I developed a system to monitor social media and analyze sentiment around different stocks.\n" + 
+        "The unique value to my system, however, was the visualization, which was done through a 4D graph in Unity, with models made in Blender. It let users explore stock perception in more detail than plain sentiment, and quickly visualize and understand which ones to pay attention to.\n" + 
+        "This was a great experiment in 3D graphics and interaction, along with IBM and Google Cloud services.",
+        image: "/assets/images/stonklytics.png",
+        color: "##F8C8DC",
+        link: "https://devpost.com/software/stonklytics"
+    },
+    { // SALON
+        text: "At Georgia Tech's HackGT 7, I wanted to see if I could help make our polarized public discourse more productive.\n" + 
+        "SALON is a web app that allows users to discuss important issues with each other over a live voice call, bringing the much-needed human touch back into debate.\n" + 
+        "As users talk, AI analyzes the conversation and flags speech that seems unsupported by evidence or highly emotional or opinionated, visually nudging the user back into productive, civil conversation.\n" + 
+        "The transcripts generated through this are also published on the site for readers to learn from these discussions.\n" + 
+        "This was a challenging experiment in designing human interaction online, audio processing and NLP, and socket technology, that also won the best web dev award.",
+        image: "/assets/images/salon.png",
+        color: "#FFBF00",
+        link: "https://devpost.com/software/hackgt2020"
     },
     // CZI
     {

@@ -10,7 +10,7 @@ const ProjectModal = (props) => {
         <div style={{zIndex: 300, width: width, height: height, position: "fixed", left: 0, top: 0}}>
             <div style={{position: "fixed", left: "25%", top: "10%", width: width / 2, padding: 32, backgroundColor: "rgba(242, 238, 218, 0.97)", borderRadius: 40, boxShadow: "30px 30px 100px #f2eeda", overflowY: "scroll"}}>
                 
-                <div onClick={() => props.setModalInfo(null)} class="billboard" style={{position: "absolute", top: 16, right: 24, fontWeight: 700}}>x</div>
+                <div onClick={() => props.setModalInfo(null)} class="billboard" style={{position: "absolute", top: 16, right: 24, fontWeight: 200, fontSize: 48}}>x</div>
 
                 {props.modalInfo.caption.split("\n").map(text => {
                     return <p style={{paddingLeft: 96, paddingRight: 96}}>{text}<br/></p>

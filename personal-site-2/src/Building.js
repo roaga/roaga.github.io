@@ -52,7 +52,7 @@ const Building = (props) => {
           {items}
 
 
-          <Billboard width={width} height={height} align={props.align} start={props.start} setModalInfo={props.setModalInfo}/>
+          <Billboard width={width} height={height} layer={props.layer} align={props.align} start={props.start} setModalInfo={props.setModalInfo}/>
         
       </div>
     );

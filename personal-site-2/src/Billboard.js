@@ -4,18 +4,16 @@ import ads from './Ads'
 
 const Billboard = (props) => {
 
-    const [height, setHeight] = useState(Math.floor(Math.random() * (props.height / 4 - 150) + 200));
-    const [width, setWidth] = useState(Math.floor(Math.random() * (props.width - 150) + 100));
-    const [bottom, setBottom] = useState(Math.random() * (props.height - height));
-    const [left, setLeft] = useState(props.align === "left" ? Math.max(0, Math.random() * (props.width / 2 - width)) : Math.min(props.width, Math.random() * props.width / 2 + width / 4));
+    const [height, setHeight] = useState(props.height / 2.5);
+    const [width, setWidth] = useState(props.width / 1.2);
+    const [bottom, setBottom] = useState(Math.random() * (props.height - height + 10));
+    const [left, setLeft] = useState(props.align === "left" ? Math.max(0, Math.random() * (props.width / 2 - width * 4)) : Math.min(props.width, Math.random() * props.width / 2 + width / 4));
 
     const [caption, setCaption] = useState("...");
     const [bgColor, setBgColor] = useState("#f2eeda");
     const [bgImage, setBgImage] = useState();
-    const [fontColor, setFontColor] = useState("black");
     const [link, setLink] = useState();
 
-    // const [flash, setFlash] = useState(false);
 
     useEffect(() => {
         let time = Math.random() * 7000 + 8000;
@@ -25,13 +23,8 @@ const Billboard = (props) => {
             chooseAd();
         }, time);
 
-        // const flickerInterval = setInterval(() => {
-        //     setFlash(flash => !flash);
-        // }, Math.round(time / 2));
-
         return () => {
             clearInterval(interval);
-            // clearInterval(flickerInterval);
         };
     }, []);
 
@@ -41,7 +34,6 @@ const Billboard = (props) => {
         setCaption(ad.text);
         setBgColor(ad.color);
         setBgImage(ad.image);
-        setFontColor(ad.fontColor);
         setLink(ad.link);
     }
     
@@ -66,18 +58,8 @@ const Billboard = (props) => {
         }}
       >
 
-          {/* {!flash || !bgImage ?
-            <h5 style={{color: fontColor, fontWeight: 700}}>{caption}</h5>
-          :
-            <img src={bgImage} style={{maxHeight: "100%", maxWidth: "100%", alignSelf: "center", justifyContent: "center"}}/>
-          } */}
           <img src={bgImage} style={{maxHeight: "100%", maxWidth: "100%", objectFit: "cover"}} alt="billboard"/>
 
-          {/* {link ? 
-            <h6 style={{color: fontColor, position: "absolute", bottom: -16, right: 4}}>(link)</h6>
-          :
-            null
-          } */}
       </div>
     );
   };
