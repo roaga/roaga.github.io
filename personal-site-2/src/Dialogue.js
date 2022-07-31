@@ -44,13 +44,13 @@ const Dialogue = (props) => {
         return (
             <div>
                 <div 
-                    style={{zIndex: 200, position: "absolute", left: "30%", bottom: 128, color: "#5a6282", padding: 16, borderRadius: 200, height: 32, width: 32, backgroundColor: "rgba(242, 238, 218, 0.8)", boxShadow: "30px 30px 100px #f2eeda"}}
+                    style={{zIndex: 201, position: "absolute", left: "30%", bottom: 128, color: "#5a6282", padding: 16, borderRadius: 200, height: 32, width: 32, backgroundColor: "rgba(242, 238, 218, 0.8)", boxShadow: "30px 30px 100px #f2eeda"}}
                     onClick={() => setPlaying(false)}
                 >
                     <img className="billboard" src={"/assets/icons/stopbutton.png"} height={32} width={32}/>
                 </div>
 
-                <div style={{ position: "absolute", zIndex: 200, bottom: 96, left: '35%', width: "30%", border: "5px solid rgba(255, 255, 255, 0.5)", borderRadius: 40, borderBottomRightRadius: 0, padding: 16}}>
+                <div style={{ position: "absolute", zIndex: 200, bottom: 96, left: '35%', width: "30%", border: "5px solid rgba(255, 255, 255, 0.5)", borderRadius: 40, borderBottomRightRadius: 0, padding: 16, backgroundColor: "#1f1f1f"}}>
                     <h2 style={{color: "white"}}>{placeholder}</h2>
                 </div>
             </div>
