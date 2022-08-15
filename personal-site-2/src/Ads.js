@@ -88,7 +88,7 @@ const ads = [
         color: "#ffffff",
         link: ""
     },
-    // Hackathon projects
+    // projects
     { // Mechanic-ease
         text: "At Stanford's TreeHacks, I built a Unity plugin to make game accessibility easy to implement while following the vision of the creator.\n" +
         "Game developers just need to set game variables in the plugin and ideal values to match their creative intent, and the backend uses ML curve fitting to study player behavior and optimize these variables in real time to match that creative intent.",
@@ -121,6 +121,15 @@ const ads = [
         image: "/assets/images/salon.png",
         color: "#FFBF00",
         link: "https://devpost.com/software/hackgt2020"
+    },
+    { // Textbook Solution
+        text: "A personal project that explore the question: can textbooks be fun?\n"+
+        "Students can paste in any note sheet, textbook page, or other document and the tool will parse the text and turn it into a jigsaw puzzle.\n" +
+        "It is a useful way to study that makes use of game design principles to make plain text entertaining and exciting.\n" + 
+        "I made this project using the Godot game engine and made it free to use.",
+        image: "/assets/images/textbooksolution.png",
+        color: "#CC7722",
+        link: "https://roaga.github.io/textbook-solution/"
     },
     // CZI
     {
