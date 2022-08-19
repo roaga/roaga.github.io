@@ -154,7 +154,7 @@ const ads = [
         "Now I've published my first paper on a novel co-creative framework and continue to make progress on this idea.",
         image: "/assets/images/eilab.png",
         color: "#ff0000",
-        link: "https://eilab.gatech.edu"
+        link: "https://arxiv.org/abs/2208.02886"
     },
 ]
 
