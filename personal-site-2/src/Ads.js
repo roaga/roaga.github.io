@@ -131,6 +131,13 @@ const ads = [
         color: "#CC7722",
         link: "https://roaga.github.io/textbook-solution/"
     },
+    { // Graphics class
+        text: "I've experimented with different areas in graphics, writing code from scratch.\n" + 
+        "This includes line drawing and projection, ray tracing, dual meshes, and GPU programming.",
+        image: "/assets/images/raytracing.png",
+        color: "#CC7722",
+        link: ""
+    },
     // CZI
     {
         text: "For my first software engineering internship, I got the amazing opportunity to work at the Chan Zuckerberg Initiative. With billions in funding, the company focuses on its two pillars of science and education.\n" +
