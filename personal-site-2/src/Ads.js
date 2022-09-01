@@ -138,6 +138,13 @@ const ads = [
         color: "#CC7722",
         link: ""
     },
+    { // Houdini
+        text: "Out of my own fascination with VFX and animation, I taught myself the basics of Houdini.\n" + 
+        "This render uses the red values in one of my oil paintings to extrude a plane in this beautiful pattern.",
+        image: "/assets/images/Houdini.png",
+        color: "#ffb8bf",
+        link: ""
+    },
     // CZI
     {
         text: "For my first software engineering internship, I got the amazing opportunity to work at the Chan Zuckerberg Initiative. With billions in funding, the company focuses on its two pillars of science and education.\n" +
