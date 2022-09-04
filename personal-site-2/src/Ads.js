@@ -145,6 +145,13 @@ const ads = [
         color: "#ffb8bf",
         link: ""
     },
+    { // C++ Physics
+        text: "I wanted to learn how physics engines worked, and get more experience with C++, so I built a simple 2D physics engine in C++.\n" + 
+        "It uses Vertel integration for efficient calculation of collisions and forces and gives a realistic simulation of circle objects interacting with each other.",
+        image: "/assets/images/PhysicsEngine.png",
+        color: "#ffffff",
+        link: "https://github.com/roaga/PhysicsEngine"
+    },
     // CZI
     {
         text: "For my first software engineering internship, I got the amazing opportunity to work at the Chan Zuckerberg Initiative. With billions in funding, the company focuses on its two pillars of science and education.\n" +
