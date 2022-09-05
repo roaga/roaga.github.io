@@ -31,7 +31,8 @@ const ads = [
     {
         text: "As a self-taught hobbyist artist in 8th grade, I was fortunate to receive a 4 year scholarship to study art under professional artists at 92Y in New York--the Recanati Kaplan Scholarship.\n" +
         "I experienced everything from oil painting to metalworking, the world's best museums to niche galleries.\n" +
-        "Over that time, I won 7 Scholastic Art and Writing awards across NYC and exhibited my work at the Metropolitan Museum of Art as a result.",
+        "Over that time, I won 7 Scholastic Art and Writing awards across NYC and exhibited my work at the Metropolitan Museum of Art as a result.\n" +
+        "Visit roaga.github.io/artgallery for a curated 3D gallery of my work or click the link below for everything I've made.",
         image: "/assets/images/bluevase.jpg",
         color: "#0000FF",
         link: "https://photos.app.goo.gl/e1Uk7pjdsrQxi5K28"
