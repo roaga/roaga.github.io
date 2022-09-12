@@ -29,8 +29,12 @@ const Billboard = (props) => {
     }, []);
 
     const chooseAd = () => {
-        let i = Math.floor(Math.random() * ads.length);
-        let ad = ads[i];
+        // example filter url: http://localhost:3000/?tag=animation
+        const windowUrl = window.location.href.split('?')[1];
+        const params = new URLSearchParams(windowUrl)
+        let relAds = params.get('tag') ? ads.filter(ad => ad.tag.includes(params.get('tag'))) : ads;
+        let i = Math.floor(Math.random() * relAds.length);
+        let ad = relAds[i];
         setCaption(ad.text);
         setBgColor(ad.color);
         setBgImage(ad.image);

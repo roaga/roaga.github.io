@@ -6,7 +6,8 @@ const ads = [
             "I did math and science of course, but I dove deep into the arts and humanities. I wrote and acted in plays, played music representative of South Asian culture, joined the board for a multicultural magazine, discussed the science of music, and made experimental short films with Unity.",
         image: "/assets/images/HCHS.png",
         color: "#800080",
-        link: "https://en.wikipedia.org/wiki/Hunter_College_High_School"
+        link: "https://en.wikipedia.org/wiki/Hunter_College_High_School",
+        tag: ["animation"]
     },
     // GT
     {
@@ -15,7 +16,8 @@ const ads = [
         "But I also learn a lot from orgs like Seek Discomfort and DramaTech Theatre's improv troupe, helping me step out of my comfort zone and grow as a person.",
         image: "/assets/images/techtower.png",
         color: "#d4af37",
-        link: "https://www.gatech.edu/"
+        link: "https://www.gatech.edu/",
+        tag: ["swe"]
     },
     // InterTutor
     {
@@ -25,7 +27,8 @@ const ads = [
         "After getting together a small team of other students, we helped grow it to serve over half the grade.",
         image: "/assets/images/intertutor.jpg",
         color: "#87CEEB",
-        link: "https://www.youtube.com/watch?v=fif2iGE3m1Y"
+        link: "https://www.youtube.com/watch?v=fif2iGE3m1Y",
+        tag: ["startup", "swe"]
     },
     // RK and Met Art
     {
@@ -35,7 +38,8 @@ const ads = [
         "Visit roaga.github.io/artgallery for a curated 3D gallery of my work or click the link below for everything I've made.",
         image: "/assets/images/bluevase.jpg",
         color: "#0000FF",
-        link: "https://photos.app.goo.gl/e1Uk7pjdsrQxi5K28"
+        link: "https://photos.app.goo.gl/e1Uk7pjdsrQxi5K28",
+        tag: ["animation"]
     },
     // Fordham research and publication
     {
@@ -45,7 +49,8 @@ const ads = [
         "That work, besides being published, was a finalist at NYCSEF and semifinalist at JSHS 2020.",
         image: "/assets/images/fordham.png",
         color: "#00FF00",
-        link: "https://jov.arvojournals.org/article.aspx?articleid=2771800"
+        link: "https://jov.arvojournals.org/article.aspx?articleid=2771800",
+        tag: ["ai", "research"]
     },
     // Kore.ai
     {
@@ -53,7 +58,8 @@ const ads = [
         "I designed, programmed, and trained chatbot systems using the company's proprietary tech to demonstrate to Fortune 500 and Global 500 companies at sales meetings.",
         image: "/assets/images/kore.png",
         color: "#008080",
-        link: "https://kore.ai"
+        link: "https://kore.ai",
+        tag: ["ai", "startup", "swe"]
     },
     // Google DSC
     {
@@ -62,7 +68,8 @@ const ads = [
         "Personally, I got experience with mobile development, backend development, design using tools like Figma, and user research.",
         image: "/assets/images/solu.png",
         color: "#00FF00",
-        link: "https://www.youtube.com/watch?v=JhWZspMDih0"
+        link: "https://www.youtube.com/watch?v=JhWZspMDih0",
+        tag: ["startup", "swe"]
     },
     // YJSP
     {
@@ -70,7 +77,8 @@ const ads = [
         "I worked in a cross-disciplinary team on a low-level C++ system for our rocket avionics.",
         image: "/assets/images/YJSP.png",
         color: "#FFD700",
-        link: "https://www.reddit.com/r/space/comments/mgpe3z/studentdesigned_studentbuild_studenttested_were/"
+        link: "https://www.reddit.com/r/space/comments/mgpe3z/studentdesigned_studentbuild_studenttested_were/",
+        tag: ["animation", "swe"]
     },
     // VGDev
     {
@@ -79,7 +87,8 @@ const ads = [
         "In another semester, I developed our VR avatar system, including techniques such as inverse kinematics, for devices such as the Oculus Quest.",
         image: "/assets/images/StarIsGone.png",
         color: "#ffffff",
-        link: "https://www.youtube.com/watch?v=fpk1uZ9n5v4"
+        link: "https://www.youtube.com/watch?v=fpk1uZ9n5v4",
+        tag: ["animation", "swe", "ai"]
     },
     // CREATE-X
     {
@@ -87,7 +96,8 @@ const ads = [
         "I learned business development from true startup veterans, conducted dozens of user interviews, let my team to build an NLP product that could scale to millions of data points, and built relationships with multiple multi-billion dollar companies, all in one summer.",
         image: "/assets/images/notitia.png",
         color: "#ffffff",
-        link: ""
+        link: "",
+        tag: ["startup", "ai", "swe"]
     },
     // projects
     { // Mechanic-ease
@@ -95,7 +105,8 @@ const ads = [
         "Game developers just need to set game variables in the plugin and ideal values to match their creative intent, and the backend uses ML curve fitting to study player behavior and optimize these variables in real time to match that creative intent.",
         image: "/assets/images/mechanicease.png",
         color: "#ADD8E6",
-        link: "https://devpost.com/software/test-08kpx3"
+        link: "https://devpost.com/software/test-08kpx3",
+        tag: ["animation", "swe", "ai"]
     },
     { // Publixmon
         text: "At Georgia Tech's HackGT 8, I built a new model for grocery retail for a challenge posed by NCR, a Fortune 500 company and leader in retail and banking payments.\n" +
@@ -103,7 +114,8 @@ const ads = [
         "This project won first place for NCR's challenge to use their retail APIs and was a great experiment in ML style transfer, blockchain tech, and real-time location features.",
         image: "/assets/images/publixmon.png",
         color: "#808000",
-        link: "https://devpost.com/software/publixmon"
+        link: "https://devpost.com/software/publixmon",
+        tag: ["swe", "startup"]
     },
     { // Stonklytics
         text: "At Georgia Tech's Hacklytics, in response to the recent controversies surrounding Reddit and stock trading, I developed a system to monitor social media and analyze sentiment around different stocks.\n" + 
@@ -111,7 +123,8 @@ const ads = [
         "This was a great experiment in 3D graphics and interaction, along with IBM and Google Cloud services.",
         image: "/assets/images/stonklytics.png",
         color: "##F8C8DC",
-        link: "https://devpost.com/software/stonklytics"
+        link: "https://devpost.com/software/stonklytics",
+        tag: ["swe"]
     },
     { // SALON
         text: "At Georgia Tech's HackGT 7, I wanted to see if I could help make our polarized public discourse more productive.\n" + 
@@ -121,7 +134,8 @@ const ads = [
         "This was a challenging experiment in designing human interaction online, audio processing and NLP, and socket technology, that also won the best web dev award.",
         image: "/assets/images/salon.png",
         color: "#FFBF00",
-        link: "https://devpost.com/software/hackgt2020"
+        link: "https://devpost.com/software/hackgt2020",
+        tag: ["swe", "ai"]
     },
     { // Textbook Solution
         text: "A personal project that explore the question: can textbooks be fun?\n"+
@@ -130,28 +144,32 @@ const ads = [
         "I made this project using the Godot game engine and made it free to use.",
         image: "/assets/images/textbooksolution.png",
         color: "#CC7722",
-        link: "https://roaga.github.io/textbook-solution/"
+        link: "https://roaga.github.io/textbook-solution/",
+        tag: ["animation", "swe"]
     },
     { // Graphics class
         text: "I've experimented with different areas in graphics, writing code from scratch.\n" + 
         "This includes line drawing and projection, ray tracing, dual meshes, and GPU programming.",
         image: "/assets/images/raytracing.png",
         color: "#CC7722",
-        link: ""
+        link: "",
+        tag: ["animation"]
     },
     { // Houdini
         text: "Out of my own fascination with VFX and animation, I taught myself the basics of Houdini.\n" + 
         "This render uses the red values in one of my oil paintings to extrude a plane in this beautiful pattern.",
         image: "/assets/images/Houdini.png",
         color: "#ffb8bf",
-        link: ""
+        link: "",
+        tag: ["animation"]
     },
     { // C++ Physics
         text: "I wanted to learn how physics engines worked, and get more experience with C++, so I built a simple 2D physics engine in C++.\n" + 
         "It uses Vertel integration for efficient calculation of collisions and forces and gives a realistic simulation of circle objects interacting with each other.",
         image: "/assets/images/PhysicsEngine.png",
         color: "#ffffff",
-        link: "https://github.com/roaga/PhysicsEngine"
+        link: "https://github.com/roaga/PhysicsEngine",
+        tag: ["animation", "swe"]
     },
     // CZI
     {
@@ -161,7 +179,8 @@ const ads = [
         "I also got the opportunity to learn from some amazing people, such as ex-Google, ex-Sun Microsystems, and ex-NeXT engineers, people who helped create Linux and Java, startup veterans, the man who led Hotmail and OneDrive, and of course the founder of Facebook himself.",
         image: "/assets/images/cellxgene.png",
         color: "#ff0000",
-        link: "https://chanzuckerberg.com/science/programs-resources/single-cell-biology/"
+        link: "https://chanzuckerberg.com/science/programs-resources/single-cell-biology/",
+        tag: ["swe"]
     },
     // EI Lab
     {
@@ -169,7 +188,8 @@ const ads = [
         "Now I've published my first paper on a novel co-creative framework and continue to make progress on this idea.",
         image: "/assets/images/eilab.png",
         color: "#ff0000",
-        link: "https://arxiv.org/abs/2208.02886"
+        link: "https://arxiv.org/abs/2208.02886",
+        tag: ["animation", "ai", "research", "swe"]
     },
 ]
 
